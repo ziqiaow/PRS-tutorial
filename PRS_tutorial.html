@@ -4,8 +4,6 @@
 
 <head>
 
-<body>
-    
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
@@ -474,8 +472,8 @@ statistics</a>
 <ul>
 <li><a href="#next-prepare-the-summary-statistics-for-prscs" id="toc-next-prepare-the-summary-statistics-for-prscs"><span class="toc-section-number">2.1</span> Next prepare the summary
 statistics for PRScs</a></li>
-<li><a href="#calculate-the-effect-size-of-gwas-for-case-control-study" id="toc-calculate-the-effect-size-of-gwas-for-case-control-study"><span class="toc-section-number">2.2</span> calculate the effect size of GWAS
-for case-control study:</a></li>
+<li><a href="#calculate-the-effect-size-of-gwas-for-case-control-study" id="toc-calculate-the-effect-size-of-gwas-for-case-control-study"><span class="toc-section-number">2.2</span> Calculate the effect size of GWAS
+for case-control study</a></li>
 <li><a href="#run-prscs" id="toc-run-prscs"><span class="toc-section-number">2.3</span> Run PRScs</a></li>
 <li><a href="#then-prepare-data-for-input-in-plink" id="toc-then-prepare-data-for-input-in-plink"><span class="toc-section-number">2.4</span> Then prepare data for input in
 PLINK</a></li>
@@ -662,8 +660,8 @@ summary statistics for PRScs</h2>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">write.table</span>(sum_stats,<span class="at">file=</span><span class="st">&quot;sum_stats.txt&quot;</span>,<span class="at">col.names =</span> T,<span class="at">row.names =</span> F,<span class="at">quote =</span> F)</span></code></pre></div>
 </div>
 <div id="calculate-the-effect-size-of-gwas-for-case-control-study" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> calculate the effect
-size of GWAS for case-control study:</h2>
+<h2><span class="header-section-number">2.2</span> Calculate the effect
+size of GWAS for case-control study</h2>
 <p><a href="https://rdrr.io/github/neurogenomics/MungeSumstats/man/compute_sample_size.html" class="uri">https://rdrr.io/github/neurogenomics/MungeSumstats/man/compute_sample_size.html</a></p>
 <p>4/(1/N_case+1/N_control)</p>
 <p>In the original ADHD paper, N_case = 38691, N_control = 186843</p>
