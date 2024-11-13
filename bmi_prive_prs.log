@@ -1,0 +1,48 @@
+PLINK v2.00a6LM 64-bit Intel (5 Jan 2024)
+Options in effect:
+  --bfile /dcs04/nilanjan/data/zwang/1000G/EUR/data/mergedplink
+  --geno 0.01
+  --hwe 1e-6
+  --mach-r2-filter
+  --maf 0.01
+  --mind 0.01
+  --out /dcs04/nilanjan/data/zwang/PGScalculation/example/bmi_prive_prs
+  --rm-dup exclude-all
+  --score /dcs04/nilanjan/data/zwang/PGScalculation/plink/bmi_score.txt cols=+scoresums,-scoreavgs
+  --score-col-nums 3
+  --threads 5
+
+Hostname: compute-121.cm.cluster
+Working directory: /dcs04/nilanjan/data/zwang/PGScalculation/plink
+Start time: Wed Nov 13 11:37:50 2024
+
+Random number seed: 1731515870
+1031474 MiB RAM detected, ~1020324 available; reserving 515737 MiB for main
+workspace.
+Using up to 5 compute threads.
+498 samples (0 females, 0 males, 498 ambiguous; 498 founders) loaded from
+/dcs04/nilanjan/data/zwang/1000G/EUR/data/mergedplink.fam.
+9754722 variants loaded from
+/dcs04/nilanjan/data/zwang/1000G/EUR/data/mergedplink.bim.
+Note: No phenotype data present.
+Note: Skipping --rm-dup since no duplicate IDs are present.
+Calculating sample missingness rates... done.
+0 samples removed due to missing genotype data (--mind).
+498 samples (0 females, 0 males, 498 ambiguous; 498 founders) remaining after
+main filters.
+Calculating allele frequencies... done.
+--geno: 0 variants removed due to missing genotype data.
+--hwe: 96738 variants removed due to Hardy-Weinberg exact test (founders only).
+0 variants removed due to allele frequency threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+9657984 variants remaining after main filters.
+Warning: --score: 2 entries in
+/dcs04/nilanjan/data/zwang/PGScalculation/plink/bmi_score.txt were skipped due
+to missing variant IDs.
+(Add the 'list-variants' modifier to see which variants were actually used for
+scoring.)
+--score: 110150 variants processed.
+--score: Results written to
+/dcs04/nilanjan/data/zwang/PGScalculation/example/bmi_prive_prs.sscore .
+
+End time: Wed Nov 13 11:38:34 2024
